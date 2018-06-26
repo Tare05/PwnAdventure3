@@ -350,7 +350,7 @@ class ProxServer(FixedDispatcher):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Custom asynchronous proxy for Pwn Adventure 3')
-    parser.add_argument('-h', "--host", required=True, help='Pwn Adventure 3 master server IP/hostname')
+    parser.add_argument('-H', "--host", required=True, help='Pwn Adventure 3 master server IP/hostname')
     args = parser.parse_args()
 
     while True:
